@@ -40,6 +40,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cicd-action-demo</finalName>
 	</build>
 
 </project>
