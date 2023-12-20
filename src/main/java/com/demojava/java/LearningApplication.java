@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class LaerningApplication {
+public class LearningApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
@@ -15,7 +15,7 @@ public class LaerningApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(LaerningApplication.class, args);
+		SpringApplication.run(LearningApplication.class, args);
 	}
 
 }
